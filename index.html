@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Booki - Trouvez votre hébergement pour des vacances de rêve</title>
+</head>
+
+<body>
+    <header>
+        <picture class="header-logo">
+            <source media="(min-width: 768px)" srcset="./images/logo/Booki.png">
+            <img src="./images/logo/Booki_x3.png" alt="Booki">
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="#hebergements">Hébergements</a></li>
+                <li><a href="#activites">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="top-section">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h6>En plein centre ville ou en pleine nature</h6>
+            <form class="left-align" action="#" method="GET" role="search">
+                <button id="locbutton" type="button"><i class="fa fa-map-marker-alt"></i></button>
+                <input id="searchbar" type="text" value="Marseille, France" placeholder="Saisir une localisation..."
+                    name="searchbar">
+                <button id="searchbutton" type="submit">Rechercher</button>
+                <button id="searchbutton-mob" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="left-align">
+                <h3>Filtres</h3>
+                <ul id="filtres">
+                    <button class="disabled-filter" type="button"><i
+                            class="fa fa-money-bill-wave"></i><span>Économique</span></button>
+                    <button class="disabled-filter" type="button"><i
+                            class="fa fa-child"></i><span>Familial</span></button>
+                    <button class="disabled-filter" type="button"><i
+                            class="fa fa-heart"></i><span>Romantique</span></button>
+                    <button class="disabled-filter" type="button"><i class="fa fa-dog"></i><span>Animaux
+                            autorisés</span></button>
+            </div>
+            <span class="hero__info-icon"><i class="fas fa-info" aria-hidden="true"></i>Plus de 500 logements sont
+                disponibles dans cette ville</span>
+        </section>
+        <section id="hebergement" class="left-align">
+            <article class="deux-tiers">
+                <h3>Hébergement</h3>
+                <div class="cards-grid">
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside class="un-tiers">
+                <h3>Les plus populaires</h3>
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <article>
+                <h3>Activités</h3>
+                <div class="cards-grid">
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section id="footer-about">
+            <h3>A propos</h3>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </section>
+        <section id="footer-hostings">
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </section>
+        <section id="footer-assistance">
+            <h3>Assistance</h3>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
